@@ -6,7 +6,7 @@ output = []
 output.append(rgb[0] / 255)
 output.append(rgb[1] / 255)
 output.append(rgb[2] / 255)
-output.append(float(transparency) * 2.55 / 255)
+output.append(float(transparency) / 100)
 print('If some of the values are something like "0.99999999999999999" you can round it if you want to.')
 uac = output
 print(uac)
